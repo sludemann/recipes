@@ -1,6 +1,21 @@
-convert this into a markdown recipe of the format
+# Create Recipe
 
-# Title of Recipe
+> > > ---
+
+Create a *recipe* from the *target* based on **Recipe Format**.
+
+[Request the *target* if not provided]
+
+> > > ---
+
+## Functions
+
+> > > --- Start
+
+_template_ **Recipe Format**
+
+```md
+# {{title}}
 
 ## Ingredients
 Bulleted ingredient list
@@ -10,3 +25,6 @@ Numbered step by step instructions
 
 ## Notes
 Optional section with notes / tips
+```
+
+> > > --- End
